@@ -6382,18 +6382,18 @@ _Lower-Intermediate Level (Non-Primary)_
 
 #### **You will possess**
 
-- Production-ready DevOps expertise across the entire technology stack
-- 21+ enterprise-grade projects demonstrating real-world competence
-- Systematic troubleshooting and problem-solving abilities
-- Enterprise security and compliance knowledge
-- Leadership and communication skills for technical teams
+- **Production-ready DevOps expertise across the entire technology stack**
+- **21+ enterprise-grade projects demonstrating real-world competence**
+- **Systematic troubleshooting and problem-solving abilities**
+- **Enterprise security and compliance knowledge**
+- **Leadership and communication skills for technical teams**
 
 #### **Career Position**
 
-- Ready for mid-to-senior DevOps engineer roles
-- Qualified for enterprise infrastructure positions
-- Prepared for technical leadership opportunities
-- Equipped for consulting and architecture roles
+- **Ready for mid-to-senior DevOps engineer roles**
+- **Qualified for enterprise infrastructure positions**
+- **Prepared for technical leadership opportunities**
+- **Equipped for consulting and architecture roles**
 
 #### **Value Proposition**
 
