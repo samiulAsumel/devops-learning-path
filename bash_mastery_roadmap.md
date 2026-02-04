@@ -1,6 +1,6 @@
 # Bash Mastery Roadmap
 
-> A comprehensive 50-day learning path from beginner to expert level Bash scripting for DevOps professionals.
+> A comprehensive 60-day learning path from beginner to expert level Bash scripting for DevOps professionals.
 
 ## Table of Contents
 
@@ -45,16 +45,33 @@
     - [Day 33: Advanced Scheduling](#day-33-advanced-scheduling)
     - [Day 34: Secure Scripting](#day-34-secure-scripting)
     - [Day 35: Performance Optimization](#day-35-performance-optimization)
-    - [Days 36–38: System Health Monitoring Project](#days-3638-system-health-monitoring-project)
-    - [Day 39: Log Aggregation Project](#day-39-log-aggregation-project)
-    - [Day 40: Comprehensive Assessment](#day-40-comprehensive-assessment)
+    - [Day 36: Signal Handling \& Trap Mechanisms](#day-36-signal-handling--trap-mechanisms)
+    - [Day 37: Subshells \& Process Substitution](#day-37-subshells--process-substitution)
+    - [Day 38: Advanced Job Control](#day-38-advanced-job-control)
+    - [Day 39: Terminal Control \& TTY Manipulation](#day-39-terminal-control--tty-manipulation)
+    - [Day 40: Shell Optimization \& Performance Tuning](#day-40-shell-optimization--performance-tuning)
   - [Stage 4: Expert / Mastery (Days 41–50+)](#stage-4-expert--mastery-days-4150)
-    - [Days 41–42: Framework Development](#days-4142-framework-development)
-    - [Days 43–44: Enterprise Automation](#days-4344-enterprise-automation)
-    - [Days 45–46: Hybrid Scripting](#days-4546-hybrid-scripting)
-    - [Day 47: Production-Ready Development](#day-47-production-ready-development)
-    - [Days 48–49: Open Source Contribution](#days-4849-open-source-contribution)
-    - [Day 50+: Continuous Mastery](#day-50-continuous-mastery)
+    - [Day 41: Built-in Commands Mastery](#day-41-built-in-commands-mastery)
+    - [Day 42: Shell Options \& Shopt Manipulation](#day-42-shell-options--shopt-manipulation)
+    - [Day 43: Advanced Parameter Expansion](#day-43-advanced-parameter-expansion)
+    - [Day 44: Process Communication with Named Pipes](#day-44-process-communication-with-named-pipes)
+    - [Day 45: Shell Scripting Design Patterns](#day-45-shell-scripting-design-patterns)
+    - [Day 46: Advanced Debugging \& Profiling](#day-46-advanced-debugging--profiling)
+    - [Day 47: Custom Shell Environments](#day-47-custom-shell-environments)
+    - [Day 48: Cross-Shell Compatibility](#day-48-cross-shell-compatibility)
+    - [Day 49: Performance Benchmarking](#day-49-performance-benchmarking)
+    - [Day 50+: CLI Framework Development](#day-50-cli-framework-development)
+  - [Stage 5: DevOps Tools Integration (Days 51–60)](#stage-5-devops-tools-integration-days-5160)
+    - [Day 51: Docker \& Podman Scripting](#day-51-docker--podman-scripting)
+    - [Day 52: Container Orchestration Automation](#day-52-container-orchestration-automation)
+    - [Day 53: Cloud CLI Integration (AWS)](#day-53-cloud-cli-integration-aws)
+    - [Day 54: Cloud CLI Integration (GCP \& Azure)](#day-54-cloud-cli-integration-gcp--azure)
+    - [Day 55: CI/CD Pipeline Scripting](#day-55-cicd-pipeline-scripting)
+    - [Day 56: Infrastructure as Code Scripting](#day-56-infrastructure-as-code-scripting)
+    - [Day 57: API Integration \& REST Scripting](#day-57-api-integration--rest-scripting)
+    - [Day 58: Database Automation Scripting](#day-58-database-automation-scripting)
+    - [Day 59: Monitoring \& Alerting Automation](#day-59-monitoring--alerting-automation)
+    - [Day 60: DevOps Integration Capstone Project](#day-60-devops-integration-capstone-project)
   - [Success Guidelines](#success-guidelines)
     - [Best Practices](#best-practices)
     - [Learning Strategy](#learning-strategy)
@@ -287,56 +304,173 @@
 - Resource usage analysis
 - **Lab Exercise**: Performance optimization of existing scripts
 
-### Days 36–38: System Health Monitoring Project
+### Day 36: Signal Handling & Trap Mechanisms
 
-- Comprehensive system monitoring (CPU, memory, disk)
-- Email alerting system implementation
-- Advanced logging and reporting
+- Signal types and handling: `trap`, `kill`, `signals`
+- Graceful shutdown and cleanup procedures
+- **Lab Exercise**: Robust script with signal handling for cleanup
 
-### Day 39: Log Aggregation Project
+### Day 37: Subshells & Process Substitution
 
-- Multi-source log collection and analysis
-- Automated reporting and visualization
+- Subshell creation and scope management
+- Process substitution: `>(cmd)` and `< (cmd)`
+- **Lab Exercise**: Advanced data processing with process substitution
 
-### Day 40: Comprehensive Assessment
+### Day 38: Advanced Job Control
 
-- Integration exam covering loops, functions, arrays, logging, cron, and error handling
-- Real-world scenario problem solving
+- Background job management: `jobs`, `fg`, `bg`, `disown`
+- Process groups and session management
+- **Lab Exercise**: Multi-process task manager with job control
+
+### Day 39: Terminal Control & TTY Manipulation
+
+- Terminal capabilities: `tput`, `stty`
+- Cursor control and screen manipulation
+- **Lab Exercise**: Interactive terminal-based user interface
+
+### Day 40: Shell Optimization & Performance Tuning
+
+- Script profiling and bottleneck identification
+- Memory usage optimization techniques
+- **Lab Exercise**: Performance optimization of complex scripts
 
 ---
 
 ## Stage 4: Expert / Mastery (Days 41–50+)
 
-### Days 41–42: Framework Development
+### Day 41: Built-in Commands Mastery
 
-- Building modular, reusable script frameworks
-- Library development and distribution
+- Shell builtins vs external commands: `type`, `hash`, `builtin`
+- Command lookup and execution optimization
+- **Lab Exercise**: Performance comparison of builtins vs external commands
 
-### Days 43–44: Enterprise Automation
+### Day 42: Shell Options & Shopt Manipulation
 
-- Complex automation solutions: backups, user management, deployments
-- Integration with enterprise systems
+- Shell behavior control: `set`, `shopt`
+- Option management for different environments
+- **Lab Exercise**: Adaptive script with environment-specific configurations
 
-### Days 45–46: Hybrid Scripting
+### Day 43: Advanced Parameter Expansion
 
-- Bash and Python integration strategies
-- Multi-language automation workflows
+- Complex string manipulation techniques
+- Nested parameter expansion strategies
+- **Lab Exercise**: Template engine using pure parameter expansion
 
-### Day 47: Production-Ready Development
+### Day 44: Process Communication with Named Pipes
 
-- Professional script standards: logging, configuration, error handling
-- Deployment and maintenance strategies
+- FIFO creation and management: `mkfifo`
+- Inter-process communication patterns
+- **Lab Exercise**: Multi-script coordination system using named pipes
 
-### Days 48–49: Open Source Contribution
+### Day 45: Shell Scripting Design Patterns
 
-- Code review and improvement practices
-- Community engagement and collaboration
+- Common patterns: factory, observer, strategy in Bash
+- Code organization and architecture principles
+- **Lab Exercise**: Implement design patterns in pure Bash
 
-### Day 50+: Continuous Mastery
+### Day 46: Advanced Debugging & Profiling
 
-- Real-world server automation projects
-- CI/CD pipeline integration
-- Ongoing skill development and specialization
+- Custom debugging frameworks and logging
+- Memory and performance profiling techniques
+- **Lab Exercise**: Professional debugging toolkit for Bash scripts
+
+### Day 47: Custom Shell Environments
+
+- Shell configuration management: `.bashrc`, `.profile`
+- Custom completion functions and key bindings
+- **Lab Exercise**: Personalized shell environment setup
+
+### Day 48: Cross-Shell Compatibility
+
+- POSIX compliance and portability
+- Differences between Bash, Zsh, and other shells
+- **Lab Exercise**: Portable script with shell detection and adaptation
+
+### Day 49: Performance Benchmarking
+
+- Script performance measurement and comparison
+- Optimization strategies and best practices
+- **Lab Exercise**: Comprehensive benchmarking suite for script optimization
+
+### Day 50+: CLI Framework Development
+
+- Building reusable CLI frameworks and libraries
+- Plugin architecture and module systems
+- **Master Project**: Complete CLI application framework with plugins
+
+---
+
+## Stage 5: DevOps Tools Integration (Days 51–60)
+
+### Day 51: Docker & Podman Scripting
+
+- Container lifecycle automation: build, run, stop, remove
+- Image management and registry operations
+- Multi-container application orchestration
+- **Lab Exercise**: Automated container deployment script with health checks
+
+### Day 52: Container Orchestration Automation
+
+- Docker Compose automation and scripting
+- Kubernetes CLI (kubectl) automation basics
+- Service discovery and load balancing scripting
+- **Lab Exercise**: Multi-service application deployment automation
+
+### Day 53: Cloud CLI Integration (AWS)
+
+- AWS CLI configuration and authentication
+- EC2, S3, and RDS automation scripts
+- Security groups and IAM management
+- **Lab Exercise**: Automated AWS resource provisioning script
+
+### Day 54: Cloud CLI Integration (GCP & Azure)
+
+- Google Cloud CLI (gcloud) automation
+- Azure CLI resource management
+- Cross-cloud deployment strategies
+- **Lab Exercise**: Multi-cloud deployment automation script
+
+### Day 55: CI/CD Pipeline Scripting
+
+- GitHub Actions workflow scripting
+- GitLab CI/CD pipeline automation
+- Jenkins pipeline script generation
+- **Lab Exercise**: Automated CI/CD pipeline setup script
+
+### Day 56: Infrastructure as Code Scripting
+
+- Terraform/OpenTofu automation scripts
+- Ansible playbook generation and execution
+- Configuration management automation
+- **Lab Exercise**: Infrastructure provisioning automation script
+
+### Day 57: API Integration & REST Scripting
+
+- REST API automation with curl and jq
+- JSON/XML data processing and manipulation
+- API authentication and rate limiting
+- **Lab Exercise**: Automated API testing and monitoring script
+
+### Day 58: Database Automation Scripting
+
+- MySQL/PostgreSQL automation scripts
+- Database backup and restore automation
+- Query execution and result processing
+- **Lab Exercise**: Automated database maintenance script
+
+### Day 59: Monitoring & Alerting Automation
+
+- Prometheus and Grafana API scripting
+- Log aggregation and analysis automation
+- Alert configuration and notification systems
+- **Lab Exercise**: Automated monitoring setup and alerting script
+
+### Day 60: DevOps Integration Capstone Project
+
+- Complete DevOps pipeline automation
+- Multi-environment deployment strategy
+- Integration of all learned tools and techniques
+- **Master Project**: End-to-end application deployment automation
 
 ---
 
