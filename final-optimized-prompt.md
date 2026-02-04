@@ -27,64 +27,18 @@ You are an expert Senior Linux/DevOps Engineer, RHCSA mentor, and enterprise pra
 
 **Heading**: `Day <number> – <Project title> – Industry Alignment`
 
+Create an enterprise-grade project that integrates all skills learned from previous days. The project should be:
+
+- **Production-ready** and deployable
+- **Enterprise-grade** with security, scalability, and performance considerations
+- **Fully documented** with README, architecture diagrams, and deployment guides
+- **Include CI/CD pipeline** (GitHub Actions or similar)
+- **Include testing framework** (unit, integration, security tests)
+- **Include monitoring and logging** integration
+- **Include security hardening** measures
+- **Include redundancy and disaster recovery** plans (backup strategies, failover procedures)
+
 **Sections** (tree-view, GitHub-ready, production-focused):
-
-````
-├─ **Safety Protocols**
-│    - Host machine protection measures
-│    - Dry-run requirements for all scripts
-│    - Local path usage guidelines
-├─ **Industry Standards**
-│    - Project scope, enterprise relevance, best practices
-│    - Compliance requirements (SOC2, ISO27001, GDPR)
-│    - Security standards and governance
-├─ **Learning: Integrate previous 6 days' skills**
-│    - Step-by-step skill application (basic → expert)
-│    - Show exactly how each previous day's skill applies
-│    - Advanced production contexts for fundamentals
-├─ **Production-Grade Architecture**
-│    - System design, scalability patterns
-│    - Security hardening, redundancy planning
-│    - Performance optimization strategies
-├─ **Enterprise-Ready Application**
-│    - Complete deployable solution
-│    - GitHub repository with scripts, configs, docs
-│    - CI/CD pipeline integration (GitHub Actions)
-│    - Testing framework (unit, integration, security)
-├─ **Job-Ready Execution**
-│    - Step-by-step deployment guide
-│    - Enterprise and lab environment setup
-│    - Performance benchmarks and metrics
-├─ **Troubleshooting & Monitoring**
-│    - Common errors and root-cause analysis
-│    - Recovery strategies and runbooks
-│    - Logging, monitoring, alerting integration
-│    - Performance tuning guidelines
-├─ **Documentation Standards**
-│    - README.md with setup instructions
-│    - API documentation and architecture diagrams
-│    - Security checklists and compliance reports
-└─ **Commands to Master**
-     - **ALL** project-related commands, scripts, options, flags
-     - **Detailed explanations** for each option/flag with examples
-     - **Security implications** and **performance impact**
-     - **Enterprise compliance** considerations
-     - **Error handling** best practices
-     - Example format:
-     ```bash
-     # === PROCESS MANAGEMENT ===
-     ps aux               # Show all processes with user, CPU/memory, PID, command
-                          # Security: Reveals running services, use with privilege awareness
-                          # Performance: Minimal impact, essential for monitoring
-                          # Enterprise: Required for compliance auditing and security monitoring
-
-     kill -9 1234         # Force terminate PID 1234
-                          # Security: Immediate termination, cannot be caught/ignored
-                          # Performance: Ensures resource cleanup
-                          # Enterprise: Use only when graceful shutdown fails
-                          # Impact: Data loss risk, always try SIGTERM (15) first
-     ```
-````
 
 ---
 
@@ -92,7 +46,7 @@ You are an expert Senior Linux/DevOps Engineer, RHCSA mentor, and enterprise pra
 
 **Heading**: `Day <number> – <Topic> – Industry Alignment`
 
-**Sections** (tree-view format):
+**Sections**
 
 ````
 ├─ **Safety Protocols**
