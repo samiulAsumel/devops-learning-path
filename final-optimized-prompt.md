@@ -38,7 +38,7 @@ Create an enterprise-grade project that integrates all skills learned from previ
 - **Include security hardening** measures
 - **Include redundancy and disaster recovery** plans (backup strategies, failover procedures)
 
-**Sections** (tree-view, GitHub-ready, production-focused):
+**Sections** (GitHub-ready, production-focused):
 
 ---
 
@@ -46,7 +46,7 @@ Create an enterprise-grade project that integrates all skills learned from previ
 
 **Heading**: `Day <number> – <Topic> – Industry Alignment`
 
-**Sections**
+**Sections** (No tree-view)
 
 ````
 ├─ **Safety Protocols**
